@@ -1,5 +1,12 @@
 .background {
   overflow: hidden;
+  position: relative;
+}
+
+.background-groseilles {
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 
 .background-paralax {
