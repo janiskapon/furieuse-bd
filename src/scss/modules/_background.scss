@@ -1,16 +1,47 @@
-.background {
-  overflow: hidden;
-  position: relative;
-}
+// .background {
+//   overflow: hidden;
+//   position: relative;
+// }
 
 .background-groseilles {
   position: absolute;
   left: 0;
   top: 0;
+  width: 513px;
+  height: 420px;
+  flex-shrink: 0;
 }
 
-.background-paralax {
+.background-montagne {
   position: absolute;
+  left: 120;
+  top: 380;
+}
+
+.background-nuages {
+  position: absolute;
+  left: 850;
+  top: 0;
+}
+
+.background-branches {
+  position: absolute;
+  left: 640;
+  top: 310;
+}
+
+.background-arbre {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 980;
+}
+
+.background-personnages {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 0;
 }
 
 .background-button {
