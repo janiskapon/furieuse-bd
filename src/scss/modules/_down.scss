@@ -2,6 +2,10 @@
   position: relative;
 }
 
+.down-rideau-one {
+  position: relative;
+}
+
 .down-button-up {
   position: absolute;
   right: 200;
@@ -11,4 +15,72 @@
 .down-merlin {
   width: 100vw;
   height: 100vh;
+}
+
+// .down-baron-one {
+//   top: 400;
+// }
+
+.down-danger {
+  position: absolute;
+  top: 1060;
+  left: 120;
+}
+
+.down-baron-text-two {
+  position: absolute;
+  top: 950;
+  left: 895;
+}
+
+.down-cimetiere {
+  position: absolute;
+  top: 1360;
+  left: 610;
+}
+
+.down-sword {
+  position: absolute;
+  top: 1850;
+  left: 240;
+}
+
+.down-baron-text-three {
+  position: absolute;
+  top: 2140;
+  left: 850;
+}
+
+.down-mariage {
+  position: absolute;
+  top: 2650;
+  right: 0;
+}
+
+.down-baron-text-four {
+  position: absolute;
+  top: 3060;
+  left: 170;
+}
+
+.down-effect {
+  position: absolute;
+  top: 3300;
+}
+
+.down-merlin-two {
+  position: absolute;
+  top: 3900;
+}
+
+.down-baron-text-five {
+  position: absolute;
+  top: 3968;
+  right: 0;
+}
+
+.down-claude {
+  position: absolute;
+  top: 5200;
+  left: 650;
 }

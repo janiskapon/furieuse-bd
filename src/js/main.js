@@ -14,3 +14,25 @@ gsap.to(".slider-container", {
     pin: true,
   },
 });
+
+gsap.to(".paralax-baron-one", {
+  scrollTrigger: {
+    trigger: ".paralax-baron-one",
+    start: "center bottom",
+    end: "+=50%",
+    scrub: 1,
+    markers: true,
+  },
+  left: "10%",
+});
+
+gsap.to(".paralax-fuite", {
+  scrollTrigger: {
+    trigger: ".paralax-fuite",
+    start: "center bottom",
+    end: "+=20%",
+    scrub: 1,
+    markers: true,
+  },
+  right: "10%",
+});
