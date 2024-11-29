@@ -1,3 +1,5 @@
+import gsap from "gsap";
+
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
@@ -65,7 +67,18 @@ gsap.to(".paralax-sword", {
     start: "center bottom",
     end: "+=50% ",
     scrub: 1,
-    markers: true,
+    // markers: true,
+  },
+  left: "10%",
+});
+
+gsap.to(".paralax-baron-three", {
+  scrollTrigger: {
+    trigger: ".paralax-baron-three",
+    start: "center bottom",
+    end: "+=170%",
+    scrub: 1,
+    // markers: true,
   },
   left: "10%",
 });

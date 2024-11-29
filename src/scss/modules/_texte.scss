@@ -3,10 +3,25 @@
   z-index: 1;
   top: 300;
   right: 920;
+  color: red;
 }
 
 .texte-lien-copyright {
   position: absolute;
   z-index: 1;
-  top: 300;
+  top: 450px;
+  left: 700px;
+  color: red;
+}
+.texte-lien-reseaux {
+  position: absolute;
+  z-index: 1;
+  top: 380px;
+  display: flex;
+  gap: 10px;
+  left: 700px;
+}
+
+.text-footer-container {
+  display: flex;
 }
